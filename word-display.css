@@ -1,21 +1,40 @@
 body {
-    background-color: rgb(168, 207, 194);
+    background-color: rgb(23, 23, 23);
 }
 
+.main-heading {
+    color: black;
 
+}
+
+.container {
+    display: block;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    align-content: center;
+}
+
+button {
+    background: none;
+    border: inherit;
+    border-radius: inherit;
+    padding: inherit;
+    cursor: pointer;
+}
+
+p {
+color: red;
+}
 
 .hide-text {
     display: none;
 }
 
-/* <--------- Elements during click -------->  */
-.display-text.reveal-btn {
+.hide-text.btn {
     display: block;
-}
-
-#main-heading-2 {
-    color: olive;
-    transition: 1s ease;
+    
 }
 
 
