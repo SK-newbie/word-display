@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(168, 207, 194);
+}
+
+
+
+.hide-text {
+    display: none;
+}
+
+/* <--------- Elements during click -------->  */
+.display-text.reveal-btn {
+    display: block;
+}
+
+#main-heading-2 {
+    color: olive;
+    transition: 1s ease;
+}
+
+
