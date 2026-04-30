@@ -1,6 +1,7 @@
 const button = document.querySelector('.btn');
 const text = document.querySelector('.hide-text');
-const heading = document.querySelector('.main-heading');
+const div = document.querySelector('.container');
+
 
 function showText(){
     if (text.classList.contains('btn')){
@@ -11,5 +12,9 @@ function showText(){
     }
 }
 
-button.addEventListener('click', showText)
+function hoverEffect() {
+    div.style.backgroundColor = 'red';
+}
 
+button.addEventListener('click', showText)
+div.addEventListener('mousemove', hoverEffect)
