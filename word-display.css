@@ -26,7 +26,7 @@ button {
 }
 
 p {
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .hide-text {
@@ -35,7 +35,5 @@ color: rgb(255, 255, 255);
 
 .hide-text.btn {
     display: block;
-    
+
 }
-
-

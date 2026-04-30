@@ -3,8 +3,8 @@ const text = document.querySelector('.hide-text');
 const div = document.querySelector('.container');
 
 
-function showText(){
-    if (text.classList.contains('btn')){
+function showText() {
+    if (text.classList.contains('btn')) {
         text.classList.remove('btn');
     }
     else {
