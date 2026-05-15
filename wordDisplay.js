@@ -1,6 +1,7 @@
 const button = document.querySelector('.btn');
 const text = document.querySelector('.hide-text');
 const div = document.querySelector('.container');
+const para = document.querySelector('.text');
 
 
 function showText() {
@@ -13,7 +14,11 @@ function showText() {
 }
 
 function hoverEffect() {
-    div.style.backgroundColor = 'red';
+    div.style.backgroundColor = 'black';
+    div.style.color = 'white';
+    para.style.color = 'white';
+    button.style.color = 'white';
+    button.style.border = 'white, solid 2px';
 }
 
 button.addEventListener('click', showText)
